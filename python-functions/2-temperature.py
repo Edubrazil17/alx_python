@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 
-def convert_to_celsus(fahrenhelt):
-    celsus = (fahrenhelt - 32)*5/9
-    return celsus
+def convert_to_celsius(fahrenhelt):
+    celsius = (fahrenhelt - 32)*5/9
+    return celsius
