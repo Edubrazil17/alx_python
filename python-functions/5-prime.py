@@ -2,19 +2,14 @@
 
 def is_prime(number):
 
-    if number <= 1:
-     return false
+    #This is the first condition that checks if the number is less than 2. Since prime numbers are greater than 1
+    if number < 2:
+        return false
 
-    elif number <= 3:
-     return true
+#This is a loop that iterates from 2 to the square root of the input number (inclusive)
+    for i in range (2, int(number **0.5)+1):
 
-    elif number % 2 == 0 or number % 3 == 0:
-     return false
+        if number % i == 0:
+            return false
 
- i = 5
-    while i * i <= number:
-        if number % i == 0 or number % (i + 2) == 0:
-            return False
-        i += 6
-
-    return True
+        return true
