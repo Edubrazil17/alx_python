@@ -9,6 +9,6 @@ b = 2
 result = add(a, b)
 #print the result with string format
 
-if "_name_" == "_main_":
+if _Name_ == "_main_":
 
    print("{} + {} = {}".format(a, b, result))
