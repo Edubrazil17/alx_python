@@ -7,7 +7,7 @@ def is_prime(number):
         return false
 
 #This is a loop that iterates from 2 to the square root of the input number (inclusive)
-    for i in range (2, int(number **0.5)+1):
+    for i in range (2, int(number **0.5) + 1):
 
         if number % i == 0:
             return false
