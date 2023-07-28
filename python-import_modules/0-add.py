@@ -1,11 +1,14 @@
 #!/usr/bin/python3
 
 #import function to add two number together
-import add_0
+from add_0 import add
 
 a = 1
 b = 2
-result = add_0.add(a, b)
+result = add(a, b)
 #print the result with string format
 
 print("{} + {} = {}".format(a, b, result))
+
+if __name=="__main__":
+   
