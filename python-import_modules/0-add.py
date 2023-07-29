@@ -10,5 +10,5 @@ result = add(a, b)
 
 print("{} + {} = {}".format(a, b, result))
 
-if __name=="__main__":
+if __name__ == "__main__":
    
