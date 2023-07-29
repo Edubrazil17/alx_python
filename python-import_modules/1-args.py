@@ -10,7 +10,7 @@ def print_argument():
     elif num_arg == 1:
         print("1 argument:")
     else:
-        print(f"{num_arg} arguments:")
+        print(f"{num_arg}" " arguments:")
 
     if num_arg > 0:
         for i in range(1, num_arg + 1 ):
