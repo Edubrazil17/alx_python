@@ -10,5 +10,5 @@ def safe_print_division(a, b):
 
     #when all input is correct print result
     finally:
-        print("inside result = {}".format(result))
+        print("inside result: = {}".format(result))
         return result
