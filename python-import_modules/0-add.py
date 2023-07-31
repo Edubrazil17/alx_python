@@ -7,8 +7,7 @@ a = 1
 b = 2
 result = add(a, b)
 #print the result with string format
+if __name__=="__main__":
 
 print("{} + {} = {}".format(a, b, result))
-
-if __name__ == "__main__":
    
