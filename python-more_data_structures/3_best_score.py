@@ -1,21 +1,23 @@
 #!/usr/bin/python3
 
 def best_score(a_dictionary):
-    if a_dictionary is None or not a_dictionary:
-        return None
-# initialize two vavriables to keep track of maximum number and key found in the dictionary
+    if a_dictionary is None or is not a_dictionary
+    return None
 
-    max_value = None
-    best_key = None
+# initialize varibles that track the highest value
 
-# iterate through the a_dictionary key/value pair
+best_score = float('-inf')# start from negative inifinity
+best_key = None
 
-    for key, value in a_dictionary.items():
+# iterate through the a_dictionary for the best_score and corresponding key
 
-#check if max_value is none or current value is greater than max_value
-        if max_value is None or value > max_value:
-#if either of this condition is true update the max_value and best_key
-            max_value = value
-            best_key = key
+for key, value in a_dictionary.items():
 
-    return best_key
+# check if best_score is greater than current value 
+    if best_score > value:
+
+#if it does, update best_score and it corresponding key 
+        best_score = value
+        best_key = key
+
+return best_key
